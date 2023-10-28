@@ -1,0 +1,15 @@
+  .cardd{
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  .card-img-right {
+    width: 20%;
+
+  } 

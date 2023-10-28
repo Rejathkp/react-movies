@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Nvbr from './Nvbr';
+import Crsl from './Crsl';
+import Crds from './Crds';
+import Crddetail from './Crddetail';
+import Crddetail2 from './Crddetail2';
+// import Crddetail2 from './Crddetail2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nvbr />
+    <Crsl />
+    <Crds />
+    <Crddetail />
+    <Crddetail2 />      
     </div>
   );
 }
